@@ -81,10 +81,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <div class="textblock">
-<p><b> <font color="red">
-This page is under construction. HFST is currently hosted on <a href="http://hfst.sf.net/index.html">Sourceforge</a>.
-We are migrating to <a href="http://www.github.com/hfst">Github</a> during February 2016.
-</b></font></p>
 <p>HFST - The Helsinki Finite-State Transducer technology is intended for creating and manipulating weighted or unweighted synchronic transducers implementing regular relations. UTF-8 is chosen as the character encoding used in HFST software. Currently, HFST has been implemented using the <a href="http://www.ims.uni-stuttgart.de/projekte/gramotron/SOFTWARE/SFST.html">SFST</a>, <a href="http://www.openfst.org">OpenFst</a> and <a href="http://code.google.com/p/foma/">foma</a> software libraries. Other versions may be added in some future release. SFST and foma implementations are unweighted and OpenFst implementation is weighted.</p>
 <p>Part of HFST interface has been implemented for HFST's own two transducer formats, <a class="el" href="classlibhfst_1_1HfstBasicTransducer.html" title="A simple transducer class with tropical weights. ">HfstBasicTransducer</a> and optimized lookup format. The previous is useful for accessing individual states and transitions of a transducer, converting between transducer formats and storing transducers in an implementation-independent format. The latter is used for fast lookup of strings in a transducer.</p>
 <p>All back-end implementations - SFST, OpenFst and foma - work according to the same interface, so it is possible to compile the same piece of code using different back-end libraries. There are some differences related to weights, as only OpenFst supports them.</p>
