@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">HFST - Helsinki Finite-State Transducer Technology - Python API
-   &#160;<span id="projectnumber">version 3.9.0</span>
+   &#160;<span id="projectnumber">version 3.9.1</span>
    </div>
   </td>
  </tr>
@@ -88,7 +88,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
  out = libhfst.HfstOutputStream(hfst_format=False)
  out.write(ab)
  out.flush()
- out.close()</pre><p>run on command line (fstprint is native OpenFst tool): </p><pre class="fragment"> python3 test.py &gt; ab.fst
+ out.close()</pre><p>run on command line (fstprint is native OpenFst tool): </p><pre class="fragment"> python test.py &gt; ab.fst
  fstprint ab.fst</pre><p>output: </p><pre class="fragment"> 0       1       a       b       2.79980469
  1</pre><p>An <a class="el" href="classlibhfst_1_1HfstInputStream.html" title="A stream for reading HFST binary transducers. ">libhfst.HfstInputStream</a> can also read backend transducers that do not have an HFST header. If we have the following files</p>
 <p>symbols.txt: </p><pre class="fragment"> EPSILON 0
@@ -101,7 +101,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      print('Read transducer:')
      print(tr)
  istr.close()</pre><p>the commands</p>
-<pre class="fragment"> cat ab.txt | fstcompile --isymbols=symbols.txt --osymbols=symbols.txt --keep_isymbols --keep_osymbols | python3 test.py</pre><p>will compile a native OpenFst transducer (fstcompile is a native OpenFst tool), read it with HFST tools and print it to standard output in AT&amp;T text format:</p>
+<pre class="fragment"> cat ab.txt | fstcompile --isymbols=symbols.txt --osymbols=symbols.txt --keep_isymbols --keep_osymbols | python test.py</pre><p>will compile a native OpenFst transducer (fstcompile is a native OpenFst tool), read it with HFST tools and print it to standard output in AT&amp;T text format:</p>
 <pre class="fragment"> Read transducer:
  0       1       a       b       0.500000
  1       0.300000</pre><p>For more information on HFST transducer formats and conversions, see the <a href="https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstTransducerFormats">wiki pages</a>.</p>
@@ -130,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     hfst-sometool transducer.foma</pre> </div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Feb 2 2016 13:04:59 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue Mar 15 2016 12:12:34 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
