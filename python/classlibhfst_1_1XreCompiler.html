@@ -96,7 +96,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>A compiler holding information contained in lexc style lexicons.  
+<p>A compiler holding information needed to compile XREs.  
  <a href="classlibhfst_1_1XreCompiler.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -145,8 +145,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae2739f2e4d3ccd7665a120c8f4a0f4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A compiler holding information contained in lexc style lexicons. </p>
-<p>A single LexcCompiler can be extended by adding entries to it, but little else can be done with it. It is sufficient to implement clone of lexc. class LexcCompiler: Create a lexc compiler for unspecified transducer format. def <b>init</b>(self): pass Create a lexc compiler with <em>impl</em> as transducer format. def <b>init</b>(self, impl): pass Create a lexc compiler with <em>impl</em> as transducer format. def <b>init</b>(self, impl, withFlags): pass Compile lexc description from <em>infile</em> into current compiler. def parse(infile): pass Compile lexc description from file <em>filename</em> into current compiler. def parse(filename): pass Set verbosity options. When <em>verbose</em> is true, LexcCompiler will output the messages that Xerox lexc compiler does. def setVerbosity(verbose): pass todo def isQuiet(): pass todo def setTreatWarningsAsErrors(value): pass todo def areWarningsTreatedAsErrors(): pass todo def setAllowMultipleSublexiconDefinitions(value): pass todo def setWithFlags(value): pass todo def setMinimizeFlags(value): pass todo def setRenameFlags(value): pass Add <em>alphabet</em> to multicharacter symbol set. These symbols may be used for regular expression ? for backends that do not support open alphabets. def addAlphabet(alphabet): pass todo def addNoFlag(lexname): pass Set current processing lexicon name to <em>lexicon_name</em>. def setCurrentLexiconName(lexicon_name): pass Add entry defined by a <em>entry</em> to current lexicon, pointing to <em>continuation</em> weighing <em>weight</em> to current lexicon. def addStringEntry(entry, continuation, weight): pass Add entry defined by <em>upper:<em>lower</em>,</em> pointing to <em>continuation</em> weighing <em>weight</em> to current lexicon. def addStringPairEntry(upper, lower, continuation, weight): pass Add entry defined by regular expression <em>xre</em>, pointing to <em>continuation</em> weighing <em>weight</em> to current lexicon. def addXreEntry(xre, continuation, weight): pass Add macro definition named <em>name</em> matching regular expression <em>xre</em> to known xerox regular expressions. def addXreDefinition(name, xre): pass Set start lexicon's name to <em>lexicon_name</em>. def setInitialLexiconName(lexicon_name): pass Create final usable version of current lexicons and entries. </p><dl class="section return"><dt>Returns</dt><dd><a class="el" href="classlibhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> pointer. def compileLexical(): pass Check that current morphotax is connected and print anomalies. Works like xerox lexc, for compatibility. def printConnectedness(): pass A compiler holding information needed to compile XREs. </dd></dl>
+<div class="textblock"><p>A compiler holding information needed to compile XREs. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a>
 <div class="memitem">
@@ -474,7 +473,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue May 3 2016 09:34:32 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 3 2016 09:49:46 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
