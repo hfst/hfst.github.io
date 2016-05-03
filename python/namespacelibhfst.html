@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">HFST - Helsinki Finite-State Transducer Technology - Python API
-   &#160;<span id="projectnumber">version 3.9.1</span>
+   &#160;<span id="projectnumber">version 3.10.0</span>
    </div>
   </td>
  </tr>
@@ -150,9 +150,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1IncorrectUtf8CodingException.html">IncorrectUtf8CodingException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">String is not valid utf-8.  <a href="classlibhfst_1_1IncorrectUtf8CodingException.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1LexcCompiler.html">LexcCompiler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A compiler holding information contained in lexc style lexicons.  <a href="classlibhfst_1_1LexcCompiler.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1MetadataException.html">MetadataException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A piece of metadata in an HFST header is not supported.  <a href="classlibhfst_1_1MetadataException.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,6 +170,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1NotValidPrologFormatException.html">NotValidPrologFormatException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input is not in valid prolog format.  <a href="classlibhfst_1_1NotValidPrologFormatException.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1PmatchContainer.html">PmatchContainer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class for performing pattern matching.  <a href="classlibhfst_1_1PmatchContainer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1SpecifiedTypeRequiredException.html">SpecifiedTypeRequiredException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of a transducer is not specified.  <a href="classlibhfst_1_1SpecifiedTypeRequiredException.html#details">More...</a><br /></td></tr>
@@ -211,7 +211,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two or more transducers do not have the same type.  <a href="classlibhfst_1_1TransducerTypeMismatchException.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1XreCompiler.html">XreCompiler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A compiler holding information needed to compile XREs.  <a href="classlibhfst_1_1XreCompiler.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A compiler holding information contained in lexc style lexicons.  <a href="classlibhfst_1_1XreCompiler.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -222,9 +222,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a58c209bc11d17149a612827815a05044"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelibhfst.html#a58c209bc11d17149a612827815a05044">compile_lexc_file</a></td></tr>
 <tr class="memdesc:a58c209bc11d17149a612827815a05044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compile lexc file <em>filename</em> into a transducer.  <a href="#a58c209bc11d17149a612827815a05044">More...</a><br /></td></tr>
 <tr class="separator:a58c209bc11d17149a612827815a05044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952263318952060eb7785c8188b49863"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelibhfst.html#a952263318952060eb7785c8188b49863">compile_pmatch_file</a></td></tr>
+<tr class="memdesc:a952263318952060eb7785c8188b49863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compile pmatch expressions as defined in <em>filename1</em> and store them in binary format in <em>filename2</em>.  <a href="#a952263318952060eb7785c8188b49863">More...</a><br /></td></tr>
+<tr class="separator:a952263318952060eb7785c8188b49863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c46c61a5ed6ee5fa5fa942e620fcb81"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelibhfst.html#a6c46c61a5ed6ee5fa5fa942e620fcb81">compile_xfst_file</a></td></tr>
 <tr class="memdesc:a6c46c61a5ed6ee5fa5fa942e620fcb81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compile (is 'run' a better term?) xfst file <em>filename</em>.  <a href="#a6c46c61a5ed6ee5fa5fa942e620fcb81">More...</a><br /></td></tr>
 <tr class="separator:a6c46c61a5ed6ee5fa5fa942e620fcb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78da5049f09472353d6dc9260bf7accc"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelibhfst.html#a78da5049f09472353d6dc9260bf7accc">create_pmatch_container</a></td></tr>
+<tr class="memdesc:a78da5049f09472353d6dc9260bf7accc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="classlibhfst_1_1PmatchContainer.html" title="A class for performing pattern matching. ">libhfst.PmatchContainer</a> as defined in binary format in file <em>filename</em>.  <a href="#a78da5049f09472353d6dc9260bf7accc">More...</a><br /></td></tr>
+<tr class="separator:a78da5049f09472353d6dc9260bf7accc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8caa30528ec0fd102f20fc5ead3410c3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacelibhfst.html#a8caa30528ec0fd102f20fc5ead3410c3">deep_coercion</a></td></tr>
 <tr class="memdesc:a8caa30528ec0fd102f20fc5ead3410c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">A transducer that specifies that a string from the output language of the transducer <em>mapping</em> always has to be mapped to one of its input strings (according to transducer <em>mappings</em>) if it appears in any of the contexts in <em>contexts</em>.  <a href="#a8caa30528ec0fd102f20fc5ead3410c3">More...</a><br /></td></tr>
 <tr class="separator:a8caa30528ec0fd102f20fc5ead3410c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -482,6 +488,47 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a952263318952060eb7785c8188b49863"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def compile_pmatch_file </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>filename1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>filename2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>kvargs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compile pmatch expressions as defined in <em>filename1</em> and store them in binary format in <em>filename2</em>. </p>
+<p>TODO.</p>
+<dl class="section see"><dt>See also</dt><dd>libhfst.create_pmatch_compiler</dd></dl>
+<p>An example:</p>
+<p>If we have a file named streets.txt that contains:</p>
+<p>define CapWord UppercaseAlpha Alpha* ; define StreetWordFr [{avenue} | {boulevard} | {rue}] ; define DeFr [ [{de} | {du} | {des} | {de la}] Whitespace ] | [{d'} | {l'}] ; define StreetFr StreetWordFr (Whitespace DeFr) CapWord+ ; regex StreetFr EndTag(FrenchStreetName) ;</p>
+<p>we can run:</p>
+<p><a class="el" href="namespacelibhfst.html#a952263318952060eb7785c8188b49863" title="Compile pmatch expressions as defined in filename1 and store them in binary format in filename2...">libhfst.compile_pmatch_file</a>('streets.txt','streets.pmatch') cont = <a class="el" href="classlibhfst_1_1PmatchContainer.html" title="A class for performing pattern matching. ">libhfst.PmatchContainer</a>('streets.pmatch') assert cont.match("Je marche seul dans l'avenue des Ternes.") == "Je marche seul dans l'&lt;FrenchStreetName&gt;avenue des Ternes&lt;/FrenchStreetName&gt;." </p>
+
+</div>
+</div>
 <a class="anchor" id="a6c46c61a5ed6ee5fa5fa942e620fcb81"></a>
 <div class="memitem">
 <div class="memproto">
@@ -518,6 +565,30 @@ Variables</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a class="anchor" id="a78da5049f09472353d6dc9260bf7accc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def libhfst.create_pmatch_container </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>filename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a <a class="el" href="classlibhfst_1_1PmatchContainer.html" title="A class for performing pattern matching. ">libhfst.PmatchContainer</a> as defined in binary format in file <em>filename</em>. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespacelibhfst.html#a952263318952060eb7785c8188b49863" title="Compile pmatch expressions as defined in filename1 and store them in binary format in filename2...">libhfst.compile_pmatch_file</a></dd></dl>
+<p>An example:</p>
+<p>If we have a file named streets.txt that contains:</p>
+<p>define CapWord UppercaseAlpha Alpha* ; define StreetWordFr [{avenue} | {boulevard} | {rue}] ; define DeFr [ [{de} | {du} | {des} | {de la}] Whitespace ] | [{d'} | {l'}] ; define StreetFr StreetWordFr (Whitespace DeFr) CapWord+ ; regex StreetFr EndTag(FrenchStreetName) ;</p>
+<p>we can run:</p>
+<p><a class="el" href="namespacelibhfst.html#a952263318952060eb7785c8188b49863" title="Compile pmatch expressions as defined in filename1 and store them in binary format in filename2...">libhfst.compile_pmatch_file</a>('streets.txt','streets.pmatch') cont = <a class="el" href="classlibhfst_1_1PmatchContainer.html" title="A class for performing pattern matching. ">libhfst.PmatchContainer</a>('streets.pmatch') assert cont.match("Je marche seul dans l'avenue des Ternes.") == "Je marche seul dans l'&lt;FrenchStreetName&gt;avenue des Ternes&lt;/FrenchStreetName&gt;." </p>
 
 </div>
 </div>
@@ -2246,7 +2317,7 @@ Variables</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 15 2016 12:12:34 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 3 2016 09:34:32 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

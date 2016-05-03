@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">HFST - Helsinki Finite-State Transducer Technology - Python API
-   &#160;<span id="projectnumber">version 3.9.1</span>
+   &#160;<span id="projectnumber">version 3.10.0</span>
    </div>
   </td>
  </tr>
@@ -370,11 +370,15 @@ Creating transducers</h1>
 <p>Create a deep copy of <a class="el" href="classlibhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> <em>another</em> or a transducer equivalent to <a class="el" href="classlibhfst_1_1HfstBasicTransducer.html" title="A simple transducer class with tropical weights. ">HfstBasicTransducer</a> <em>another</em>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">another</td><td>An <a class="el" href="classlibhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> or <a class="el" href="classlibhfst_1_1HfstBasicTransducer.html" title="A simple transducer class with tropical weights. ">HfstBasicTransducer</a>. </td></tr>
+    <tr><td class="paramname">another</td><td>An <a class="el" href="classlibhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> or <a class="el" href="classlibhfst_1_1HfstBasicTransducer.html" title="A simple transducer class with tropical weights. ">HfstBasicTransducer</a>.</td></tr>
   </table>
   </dd>
 </dl>
-
+<p>An example:</p>
+<pre class="fragment"> tr1 = libhfst.regex('foo bar foo')
+ tr2 = libhfst.HfstTransducer(tr1)
+ tr2.substitute('foo','FOO')
+ tr1.concatenate(tr2)</pre> 
 </div>
 </div>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a>
@@ -2308,7 +2312,7 @@ Transition with <a class="el" href="namespacelibhfst.html#a3b257e90982f934e0237c
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 15 2016 12:12:34 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 3 2016 09:34:32 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>
