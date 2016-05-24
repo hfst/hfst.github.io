@@ -1,0 +1,9 @@
+@article{hfst/2011,
+ title = {{HFST}--Framework for Compiling and Applying Morphologies},
+ author = {Krister Lind\'{e}n and Erik Axelson and Sam Hardwick and Miikka Silfverberg and Tommi Pirinen},
+ year = {2011},
+ booktitle = {Proceedings of Second International Workshop on Systems and Frameworks for Computational Morphology},
+ pages = {67--85},
+ crossref = {conf/sfcm/2011},
+ uri = {http://www.helsinki.fi/\%7Etapirine/publications/Pirinen-sfcm-2011.pdf}
+}

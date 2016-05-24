@@ -1,0 +1,9 @@
+@inproceedings{hardwick/2015,
+  author = {Sam Harwick and Mikka Silfverberg and Krister Lind\'{e}n},
+  title = {Extracting Semantic Frames using hfst-pmatch},
+  booktitle = {Proceedings from NODALIDA 2015},
+  year={2015}
+  month = {May},
+  date = {11-13},
+  address = {Vilnius, Lithuainia},
+}

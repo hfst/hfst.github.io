@@ -1,0 +1,19 @@
+@inproceedings{DBLP:conf/sfcm/LindenHSA15,
+  author    = {Krister Lind{\'{e}}n and
+               Sam Hardwick and
+               Miikka Silfverberg and
+               Erik Axelson},
+  title     = {Using {HFST} - Helsinki Finite-State Technology for Recognizing Semantic
+               Frames},
+  booktitle = {Systems and Frameworks for Computational Morphology - Fourth International
+               Workshop, {SFCM} 2015, Stuttgart, Germany, September 17-18, 2015,
+               Proceedings},
+  pages     = {124--136},
+  year      = {2015},
+  crossref  = {DBLP:conf/sfcm/2015},
+  url       = {http://dx.doi.org/10.1007/978-3-319-23980-4_8},
+  doi       = {10.1007/978-3-319-23980-4_8},
+  timestamp = {Wed, 16 Sep 2015 13:34:18 +0200},
+  biburl    = {http://dblp2.uni-trier.de/rec/bib/conf/sfcm/LindenHSA15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}

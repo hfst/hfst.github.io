@@ -1,0 +1,13 @@
+@InProceedings{KOKKINAKIS14.391,
+  author = {Dimitrios Kokkinakis and Jyrki Niemi and Sam Hardwick and Krister Lind{\'{e}}n and Lars Borin},
+  title = {HFST-SweNER ― A New NER Resource for Swedish},
+  booktitle = {Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
+  year = {2014},
+  month = {may},
+  date = {26-31},
+  address = {Reykjavik, Iceland},
+  editor = {Nicoletta Calzolari (Conference Chair) and Khalid Choukri and Thierry Declerck and Hrafn Loftsson and Bente Maegaard and Joseph Mariani and Asuncion Moreno and Jan Odijk and Stelios Piperidis},
+  publisher = {European Language Resources Association (ELRA)},
+  isbn = {978-2-9517408-8-4},
+  language = {english}
+ }
