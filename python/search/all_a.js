@@ -6,7 +6,6 @@ var searchData=
   ['left_5freplace_5fright',['left_replace_right',['../namespacelibhfst.html#a7c0c563db323783e731a48ce26e5bc5c',1,'libhfst']]],
   ['left_5freplace_5fup',['left_replace_up',['../namespacelibhfst.html#ae5663ae95349bcc58f9b0bf45c6697a8',1,'libhfst.left_replace_up'],['../namespacelibhfst.html#ae5663ae95349bcc58f9b0bf45c6697a8',1,'libhfst.left_replace_up']]],
   ['lenient_5fcomposition',['lenient_composition',['../classlibhfst_1_1HfstTransducer.html#a2699aa331e04e49dce536ffd07e84c78',1,'libhfst::HfstTransducer']]],
-  ['lexccompiler',['LexcCompiler',['../classlibhfst_1_1LexcCompiler.html',1,'libhfst']]],
   ['libhfst',['libhfst',['../namespacelibhfst.html',1,'']]],
   ['libhfst_2epy',['libhfst.py',['../libhfst_8py.html',1,'']]],
   ['log_5fopenfst_5ftype',['LOG_OPENFST_TYPE',['../namespacelibhfst.html#ac6b38b4422b600ee9b8b6a6e27870102',1,'libhfst']]],

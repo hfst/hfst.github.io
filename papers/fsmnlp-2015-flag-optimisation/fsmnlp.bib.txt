@@ -1,0 +1,10 @@
+@inproceedings{drobac/2015,
+  author = {Senka Drobac and Miikka Silfverberg and Krister Lind\'{e}n},
+  title = {Automated Lossless Hyper-Minimization for Morphological Analyzers},
+  booktitle = {Proceedings from FSMNLP 2015},
+  year = {2015},
+  month = {June},
+  date = {22-24},
+  address = {D\"{u}sseldorf, Germany},
+  url = {https://aclweb.org/anthology/W/W15/W15-4806.pdf}
+}

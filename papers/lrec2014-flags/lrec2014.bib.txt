@@ -1,0 +1,10 @@
+@InProceedings{drobac2014,
+  author = {Drobac, Senka and Lind{\'e}n, Krister and Pirinen, Tommi A and Silfverberg, Miikka},
+  title = {Heuristic Hyper-minimization of Finite State Lexicons},
+  booktitle = {Proceedings of the Ninth International Conference on Language Resources and Evaluation (LREC'14)},
+  year = {2014},
+  month = {May},
+  date = {28-30},
+  address = {Reykjavik, Iceland},
+  language = {english}
+}

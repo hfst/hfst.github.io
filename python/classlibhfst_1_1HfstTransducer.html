@@ -23,7 +23,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">HFST - Helsinki Finite-State Transducer Technology - Python API
-   &#160;<span id="projectnumber">version 3.9.1</span>
+   &#160;<span id="projectnumber">version 3.10.0</span>
    </div>
   </td>
  </tr>
@@ -201,7 +201,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a98bc036a5cf88dcf6ce2426dbafbea98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the transducer is infinitely ambiguous.  <a href="#a98bc036a5cf88dcf6ce2426dbafbea98">More...</a><br /></td></tr>
 <tr class="separator:a98bc036a5cf88dcf6ce2426dbafbea98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae58592f09e76b6823c6e049cfe87e695"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1HfstTransducer.html#ae58592f09e76b6823c6e049cfe87e695">is_lookup_infinitely_ambiguous</a></td></tr>
-<tr class="memdesc:ae58592f09e76b6823c6e049cfe87e695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookup or apply a single string <em>input</em> and return a maximum of <em>limit</em> results.  <a href="#ae58592f09e76b6823c6e049cfe87e695">More...</a><br /></td></tr>
+<tr class="memdesc:ae58592f09e76b6823c6e049cfe87e695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether lookup of path <em>input</em> will have infinite results.  <a href="#ae58592f09e76b6823c6e049cfe87e695">More...</a><br /></td></tr>
 <tr class="separator:ae58592f09e76b6823c6e049cfe87e695"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2699aa331e04e49dce536ffd07e84c78"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlibhfst_1_1HfstTransducer.html#a2699aa331e04e49dce536ffd07e84c78">lenient_composition</a></td></tr>
 <tr class="memdesc:a2699aa331e04e49dce536ffd07e84c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a lenient composition on this transducer and <em>another</em>.  <a href="#a2699aa331e04e49dce536ffd07e84c78">More...</a><br /></td></tr>
@@ -370,11 +370,15 @@ Creating transducers</h1>
 <p>Create a deep copy of <a class="el" href="classlibhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> <em>another</em> or a transducer equivalent to <a class="el" href="classlibhfst_1_1HfstBasicTransducer.html" title="A simple transducer class with tropical weights. ">HfstBasicTransducer</a> <em>another</em>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">another</td><td>An <a class="el" href="classlibhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> or <a class="el" href="classlibhfst_1_1HfstBasicTransducer.html" title="A simple transducer class with tropical weights. ">HfstBasicTransducer</a>. </td></tr>
+    <tr><td class="paramname">another</td><td>An <a class="el" href="classlibhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> or <a class="el" href="classlibhfst_1_1HfstBasicTransducer.html" title="A simple transducer class with tropical weights. ">HfstBasicTransducer</a>.</td></tr>
   </table>
   </dd>
 </dl>
-
+<p>An example:</p>
+<pre class="fragment"> tr1 = libhfst.regex('foo bar foo')
+ tr2 = libhfst.HfstTransducer(tr1)
+ tr2.substitute('foo','FOO')
+ tr1.concatenate(tr2)</pre> 
 </div>
 </div>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a>
@@ -1275,8 +1279,9 @@ Transition with <a class="el" href="namespacelibhfst.html#a3b257e90982f934e0237c
       </table>
 </div><div class="memdoc">
 
-<p>Lookup or apply a single string <em>input</em> and return a maximum of <em>limit</em> results. </p>
-<p>This is an overloaded lookup function that leaves tokenizing to the transducer. </p><dl class="section return"><dt>Returns</dt><dd>HfstOneLevelPaths pointer def lookup(input, limit=-1): pass </dd></dl>
+<p>Whether lookup of path <em>input</em> will have infinite results. </p>
+<p>Currently, this function will return whether the transducer is infinitely ambiguous on any lookup path found in the transducer, i.e. the argument <em>input</em> is ignored.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Do not ignore the argument <em>input</em> </dd></dl>
 
 </div>
 </div>
@@ -2308,7 +2313,7 @@ Transition with <a class="el" href="namespacelibhfst.html#a3b257e90982f934e0237c
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Tue Mar 15 2016 12:12:34 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Tue May 3 2016 09:49:46 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

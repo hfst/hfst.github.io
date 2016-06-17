@@ -1,0 +1,8 @@
+@conference{pirinen2012improving,
+    title = {Improving Finite-State Spell-Checker Suggestions with Part of Speech N-Grams},
+    author = {Tommi Pirinen and Miikka Silfverberg and Krister Lindén},
+    year = {2012},
+    location = {Delhi, India},
+    booktitle = {IJCLA},
+    category = {thesis}
+}

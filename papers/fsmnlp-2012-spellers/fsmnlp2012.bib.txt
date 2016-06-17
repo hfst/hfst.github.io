@@ -1,0 +1,14 @@
+@inproceedings{pirinen2012effects,
+  author    = {Pirinen, Tommi A  and  Hardwick, Sam},
+  title     = {Effect of Language and Error Models on Efficiency of
+      Finite-State Spell-Checking and Correction},
+  booktitle = {Proceedings of the 10th International Workshop on Finite State
+      Methods and Natural Language Processing},
+  month     = {July},
+  year      = {2012},
+  address   = {Donostia--San Sebastián},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1--9},
+  url       = {http://www.aclweb.org/anthology/W12-6201},
+  category = {thesis}
+}

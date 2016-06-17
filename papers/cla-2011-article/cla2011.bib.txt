@@ -1,0 +1,7 @@
+@inproceedings{silfverberg/2011/cla,
+ author = {Miikka Silfverberg and Mirka Hyv\"{a}rinen and Tommi Pirinen},
+ title = {Improving Predictive Entry of Finnish Text Messages using {I}{R}{C} Logs},
+ booktitle = {Proceedings of Computational Linguistics and Applications},
+ year = {2011},
+ address = {Jachranka, Poland},
+}

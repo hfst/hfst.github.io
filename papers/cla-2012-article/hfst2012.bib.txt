@@ -1,0 +1,7 @@
+@inproceedings{hfst/2012/cla,
+  author = {Krister Lind\'{e}n and Erik Axelson and Senka Drobac and Sam Hardwick and Miikka Silfverberg and Tommi A Pirinen},
+  title = {Using HFST for Creating Computational Linguistic Applications},
+  booktitle = {Proceedings of Computational Linguistics - Applications, 2012},
+  pages = {to appear},
+  year = {2012}
+}

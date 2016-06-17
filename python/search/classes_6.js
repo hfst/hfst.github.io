@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['metadataexception',['MetadataException',['../classlibhfst_1_1MetadataException.html',1,'libhfst']]],
-  ['missingopenfstinputsymboltableexception',['MissingOpenFstInputSymbolTableException',['../classlibhfst_1_1MissingOpenFstInputSymbolTableException.html',1,'libhfst']]],
-  ['multicharsymboltrie',['MultiCharSymbolTrie',['../classlibhfst_1_1MultiCharSymbolTrie.html',1,'libhfst']]]
+  ['nottransducerstreamexception',['NotTransducerStreamException',['../classlibhfst_1_1NotTransducerStreamException.html',1,'libhfst']]],
+  ['notvalidattformatexception',['NotValidAttFormatException',['../classlibhfst_1_1NotValidAttFormatException.html',1,'libhfst']]],
+  ['notvalidlexcformatexception',['NotValidLexcFormatException',['../classlibhfst_1_1NotValidLexcFormatException.html',1,'libhfst']]],
+  ['notvalidprologformatexception',['NotValidPrologFormatException',['../classlibhfst_1_1NotValidPrologFormatException.html',1,'libhfst']]]
 ];

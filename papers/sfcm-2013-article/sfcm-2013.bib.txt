@@ -1,0 +1,13 @@
+@inproceedings{pmatch,
+  author =       {Lind{\'e}n, Krister and Axelson, Erik and Drobac, Senka and Hardwick, Sam and Kuokkala, Juha and Niemi, Jyrki and Pirinen, Tommi and Silfverberg, Miikka},
+  editor =        {Mahlow, Cerstin and Piotrowski, Michael},
+  booktitle =      {Systems and Frameworks for Computational Morphology},
+  title =    {{HFST} -- A System for Creating {NLP} Tools},
+  publisher =         {Springer},
+  year =     2013,
+  key =          {Computer Science},
+  volume =        380,
+  series =         {Communications in Computer and Information Science},
+  address =         {Berlin Heidelberg},
+  pages =  {53--71}
+}

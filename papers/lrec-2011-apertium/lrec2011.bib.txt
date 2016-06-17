@@ -1,0 +1,8 @@
+@article{pirinen2012compiling,
+  title={Compiling Apertium morphological dictionaries with HFST and using them in HFST applications},
+  author={Pirinen, T.A. and Tyers, F.M.},
+  journal={Language Technology for Normalisation of Less-Resourced Languages},
+  pages={25},
+  year={2012},
+  category = {thesis}
+}
