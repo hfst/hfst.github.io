@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['flagdiacriticsarenotidentitiesexception',['FlagDiacriticsAreNotIdentitiesException',['../classlibhfst_1_1FlagDiacriticsAreNotIdentitiesException.html',1,'libhfst']]],
-  ['functionnotimplementedexception',['FunctionNotImplementedException',['../classlibhfst_1_1FunctionNotImplementedException.html',1,'libhfst']]]
+  ['emptysetofcontextsexception',['EmptySetOfContextsException',['../classhfst_1_1exceptions_1_1EmptySetOfContextsException.html',1,'hfst::exceptions']]],
+  ['emptystringexception',['EmptyStringException',['../classhfst_1_1exceptions_1_1EmptyStringException.html',1,'hfst::exceptions']]],
+  ['endofstreamexception',['EndOfStreamException',['../classhfst_1_1exceptions_1_1EndOfStreamException.html',1,'hfst::exceptions']]]
 ];

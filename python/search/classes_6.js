@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['nottransducerstreamexception',['NotTransducerStreamException',['../classlibhfst_1_1NotTransducerStreamException.html',1,'libhfst']]],
-  ['notvalidattformatexception',['NotValidAttFormatException',['../classlibhfst_1_1NotValidAttFormatException.html',1,'libhfst']]],
-  ['notvalidlexcformatexception',['NotValidLexcFormatException',['../classlibhfst_1_1NotValidLexcFormatException.html',1,'libhfst']]],
-  ['notvalidprologformatexception',['NotValidPrologFormatException',['../classlibhfst_1_1NotValidPrologFormatException.html',1,'libhfst']]]
+  ['metadataexception',['MetadataException',['../classhfst_1_1exceptions_1_1MetadataException.html',1,'hfst::exceptions']]],
+  ['missingopenfstinputsymboltableexception',['MissingOpenFstInputSymbolTableException',['../classhfst_1_1exceptions_1_1MissingOpenFstInputSymbolTableException.html',1,'hfst::exceptions']]],
+  ['multicharsymboltrie',['MultiCharSymbolTrie',['../classhfst_1_1MultiCharSymbolTrie.html',1,'hfst']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['metadataexception',['MetadataException',['../classlibhfst_1_1MetadataException.html',1,'libhfst']]],
-  ['missingopenfstinputsymboltableexception',['MissingOpenFstInputSymbolTableException',['../classlibhfst_1_1MissingOpenFstInputSymbolTableException.html',1,'libhfst']]],
-  ['multicharsymboltrie',['MultiCharSymbolTrie',['../classlibhfst_1_1MultiCharSymbolTrie.html',1,'libhfst']]]
+  ['implementationtypenotavailableexception',['ImplementationTypeNotAvailableException',['../classhfst_1_1exceptions_1_1ImplementationTypeNotAvailableException.html',1,'hfst::exceptions']]],
+  ['incorrectutf8codingexception',['IncorrectUtf8CodingException',['../classhfst_1_1exceptions_1_1IncorrectUtf8CodingException.html',1,'hfst::exceptions']]]
 ];

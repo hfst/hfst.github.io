@@ -1,12 +1,13 @@
 var searchData=
 [
-  ['left_5freplace_5fdown',['left_replace_down',['../namespacelibhfst.html#aab4f2f59d529db2c2e5adff5848c1aaa',1,'libhfst']]],
-  ['left_5freplace_5fdown_5fkarttunen',['left_replace_down_karttunen',['../namespacelibhfst.html#ad0464fed91b87b0e676f522647234d12',1,'libhfst']]],
-  ['left_5freplace_5fleft',['left_replace_left',['../namespacelibhfst.html#a99c3368e85242df3041c070d2c9d64ab',1,'libhfst']]],
-  ['left_5freplace_5fright',['left_replace_right',['../namespacelibhfst.html#a7c0c563db323783e731a48ce26e5bc5c',1,'libhfst']]],
-  ['left_5freplace_5fup',['left_replace_up',['../namespacelibhfst.html#ae5663ae95349bcc58f9b0bf45c6697a8',1,'libhfst.left_replace_up'],['../namespacelibhfst.html#ae5663ae95349bcc58f9b0bf45c6697a8',1,'libhfst.left_replace_up']]],
-  ['lenient_5fcomposition',['lenient_composition',['../classlibhfst_1_1HfstTransducer.html#a2699aa331e04e49dce536ffd07e84c78',1,'libhfst::HfstTransducer']]],
-  ['longest_5fpath_5fsize',['longest_path_size',['../classlibhfst_1_1HfstBasicTransducer.html#a3b6ca4d51f8f2ae978a89bf3bbb16172',1,'libhfst.HfstBasicTransducer.longest_path_size()'],['../classlibhfst_1_1HfstTransducer.html#a3b6ca4d51f8f2ae978a89bf3bbb16172',1,'libhfst.HfstTransducer.longest_path_size()']]],
-  ['lookup',['lookup',['../classlibhfst_1_1HfstTransducer.html#adb56719113b91207a4772e5ff60f7727',1,'libhfst::HfstTransducer']]],
-  ['lookup_5ffd',['lookup_fd',['../classlibhfst_1_1HfstBasicTransducer.html#ae92b6cef9852ebbd72cd3aa0150d65fe',1,'libhfst::HfstBasicTransducer']]]
+  ['left_5freplace_5fdown',['left_replace_down',['../namespacehfst_1_1rules.html#ac23ade82f7f0c6bbe44de636184533eb',1,'hfst::rules']]],
+  ['left_5freplace_5fdown_5fkarttunen',['left_replace_down_karttunen',['../namespacehfst_1_1rules.html#a31b6ac3c4a8b424cfc998d259def1f14',1,'hfst::rules']]],
+  ['left_5freplace_5fleft',['left_replace_left',['../namespacehfst_1_1rules.html#afe108acf0bf3d18b419cab7b8179dd16',1,'hfst::rules']]],
+  ['left_5freplace_5fright',['left_replace_right',['../namespacehfst_1_1rules.html#a81a5b21055bac23ed1d9b1419f75ca41',1,'hfst::rules']]],
+  ['left_5freplace_5fup',['left_replace_up',['../namespacehfst_1_1rules.html#a0fa7619243e3c3ba197fa18bf585055c',1,'hfst.rules.left_replace_up'],['../namespacehfst_1_1rules.html#a0fa7619243e3c3ba197fa18bf585055c',1,'hfst.rules.left_replace_up']]],
+  ['lenient_5fcomposition',['lenient_composition',['../classhfst_1_1HfstTransducer.html#a2699aa331e04e49dce536ffd07e84c78',1,'hfst::HfstTransducer']]],
+  ['longest_5fpath_5fsize',['longest_path_size',['../classhfst_1_1HfstBasicTransducer.html#a3b6ca4d51f8f2ae978a89bf3bbb16172',1,'hfst.HfstBasicTransducer.longest_path_size()'],['../classhfst_1_1HfstTransducer.html#a3b6ca4d51f8f2ae978a89bf3bbb16172',1,'hfst.HfstTransducer.longest_path_size()']]],
+  ['lookup',['lookup',['../classhfst_1_1HfstTransducer.html#adb56719113b91207a4772e5ff60f7727',1,'hfst::HfstTransducer']]],
+  ['lookup_5ffd',['lookup_fd',['../classhfst_1_1HfstBasicTransducer.html#ae92b6cef9852ebbd72cd3aa0150d65fe',1,'hfst::HfstBasicTransducer']]],
+  ['lookup_5foptimize',['lookup_optimize',['../classhfst_1_1HfstTransducer.html#a3828090628380d5a5a2a96dbdfda241d',1,'hfst::HfstTransducer']]]
 ];

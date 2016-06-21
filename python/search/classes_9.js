@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['transducerhaswrongtypeexception',['TransducerHasWrongTypeException',['../classlibhfst_1_1TransducerHasWrongTypeException.html',1,'libhfst']]],
-  ['transducerheaderexception',['TransducerHeaderException',['../classlibhfst_1_1TransducerHeaderException.html',1,'libhfst']]],
-  ['transduceriscyclicexception',['TransducerIsCyclicException',['../classlibhfst_1_1TransducerIsCyclicException.html',1,'libhfst']]],
-  ['transducersarenotautomataexception',['TransducersAreNotAutomataException',['../classlibhfst_1_1TransducersAreNotAutomataException.html',1,'libhfst']]],
-  ['transducertypemismatchexception',['TransducerTypeMismatchException',['../classlibhfst_1_1TransducerTypeMismatchException.html',1,'libhfst']]]
+  ['specifiedtyperequiredexception',['SpecifiedTypeRequiredException',['../classhfst_1_1exceptions_1_1SpecifiedTypeRequiredException.html',1,'hfst::exceptions']]],
+  ['stateindexoutofboundsexception',['StateIndexOutOfBoundsException',['../classhfst_1_1exceptions_1_1StateIndexOutOfBoundsException.html',1,'hfst::exceptions']]],
+  ['stateisnotfinalexception',['StateIsNotFinalException',['../classhfst_1_1exceptions_1_1StateIsNotFinalException.html',1,'hfst::exceptions']]],
+  ['streamcannotbewrittenexception',['StreamCannotBeWrittenException',['../classhfst_1_1exceptions_1_1StreamCannotBeWrittenException.html',1,'hfst::exceptions']]],
+  ['streamisclosedexception',['StreamIsClosedException',['../classhfst_1_1exceptions_1_1StreamIsClosedException.html',1,'hfst::exceptions']]],
+  ['streamnotreadableexception',['StreamNotReadableException',['../classhfst_1_1exceptions_1_1StreamNotReadableException.html',1,'hfst::exceptions']]],
+  ['symbolnotfoundexception',['SymbolNotFoundException',['../classhfst_1_1exceptions_1_1SymbolNotFoundException.html',1,'hfst::exceptions']]]
 ];
