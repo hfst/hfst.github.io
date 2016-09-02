@@ -83,7 +83,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><p>A binary <a class="el" href="classhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> consists of an HFST header (more on HFST headers on the <a href="https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstTransducerHeader">wiki pages</a>) and the transducer of the backend implementation.</p>
 <p>If you want to write backend transducers as such, you can specify it with the <em>hfst_format</em> keyword argument of <a class="el" href="classhfst_1_1HfstOutputStream.html" title="A stream for writing binary transducers. ">HfstOutputStream</a> constructor:</p>
 <pre class="fragment">    HfstOutputStream(hfst_format=True)</pre><p>The following piece of code will write a native OpenFst transducer with tropical weights to standard output:</p>
-<p>test.py: </p><pre class="fragment"> import libhfst
+<p>test.py: </p><pre class="fragment"> import hfst
  ab = hfst.regex('a:b::2.8')
  out = hfst.HfstOutputStream(hfst_format=False)
  out.write(ab)
@@ -94,7 +94,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <p>symbols.txt: </p><pre class="fragment"> EPSILON 0
  a 1
  b 2</pre><p>ab.txt: </p><pre class="fragment"> 0 1 a b 0.5
- 1 0.3</pre><p>test.py: </p><pre class="fragment"> import libhfst
+ 1 0.3</pre><p>test.py: </p><pre class="fragment"> import hfst
  istr = hfst.HfstInputStream()
  while not istr.is_eof():
      tr = istr.read()
@@ -108,7 +108,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <h3>An issue with foma</h3>
 <p>Foma writes its binary transducers in gzipped format using the gz tools. However, we experienced problems when trying to write to standard output or read from standard input with gz tools (foma tools do not write to or read from standard streams). So we choose to write, and accordingly read, foma transducers unzipped when writing or reading binary HfstTransducers of <a class="el" href="namespacehfst_1_1types.html#a6d227efc26ac837490b58ef9693b1c8d" title="A foma transducer, unweighted. ">hfst.types.FOMA_TYPE</a>. As a result, when we write an <a class="el" href="classhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> of FOMA_TYPE in its plain backend format, the user must zip it themselves before it can be used by foma tools. (update: at least the newest releases of foma are able to read also unzipped transducers.) Similarily, a foma transducer must be unzipped before it can be read by HFST tools.</p>
 <p>Suppose we have written a FOMA_TYPE <a class="el" href="classhfst_1_1HfstTransducer.html" title="A synchronous finite-state transducer. ">HfstTransducer</a> and want to use it with foma tools. First we write it, in its plain backend format, to file 'ab.foma' with the following piece of code:</p>
-<pre class="fragment"> import libhfst
+<pre class="fragment"> import hfst
  hfst.set_default_fst_type(hfst.types.FOMA_TYPE)
  ab = libfst.regex('a:b')
  out = hfst.HfstOutputStream(hfst_format=False)
