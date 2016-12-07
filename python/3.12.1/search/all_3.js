@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['check_5futf8_5fcorrectness',['check_utf8_correctness',['../classhfst_1_1HfstTokenizer.html#ad10c9331690cad5c5675fb96922dec66',1,'hfst::HfstTokenizer']]],
+  ['close',['close',['../classhfst_1_1HfstInputStream.html#a9a957c03c6873d8a14c39f87c9b24f54',1,'hfst.HfstInputStream.close()'],['../classhfst_1_1HfstOutputStream.html#a9a957c03c6873d8a14c39f87c9b24f54',1,'hfst.HfstOutputStream.close()']]],
+  ['coercion',['coercion',['../namespacehfst_1_1sfst__rules.html#ac33d126beff91ce93b785de4a836f54e',1,'hfst::sfst_rules']]],
+  ['compare',['compare',['../classhfst_1_1HfstTransducer.html#abcb29cf6999377200bf19736b0e296ac',1,'hfst::HfstTransducer']]],
+  ['compile',['compile',['../classhfst_1_1XreCompiler.html#af040f68627268cdbcd01c66abd829c7b',1,'hfst::XreCompiler']]],
+  ['compile_5flexc_5ffile',['compile_lexc_file',['../namespacehfst.html#af186a42371a9c214f73c0130ec2946ec',1,'hfst']]],
+  ['compile_5fpmatch_5fexpression',['compile_pmatch_expression',['../namespacehfst.html#a66a0202ca86861a814f57d53bec5ac37',1,'hfst']]],
+  ['compile_5fpmatch_5ffile',['compile_pmatch_file',['../namespacehfst.html#a8911ff0c8be9fe6842b8a555d6f45466',1,'hfst']]],
+  ['compile_5fxfst_5ffile',['compile_xfst_file',['../namespacehfst.html#a92a1c404ef876ed104c7fb484f16a298',1,'hfst']]],
+  ['compose',['compose',['../classhfst_1_1HfstTransducer.html#a55cfee3258e73d2ddccb3901acd587dc',1,'hfst::HfstTransducer']]],
+  ['compose_5fintersect',['compose_intersect',['../classhfst_1_1HfstTransducer.html#a34ff54fd799851453851e2058537fc98',1,'hfst::HfstTransducer']]],
+  ['concatenate',['concatenate',['../classhfst_1_1HfstTransducer.html#ac5709c296a86a1a9c9344dacc4363795',1,'hfst::HfstTransducer']]],
+  ['conjunct',['conjunct',['../classhfst_1_1HfstTransducer.html#a8535116b67d8bbacc28ccf338a01b0ca',1,'hfst::HfstTransducer']]],
+  ['contexttransducersarenotautomataexception',['ContextTransducersAreNotAutomataException',['../classhfst_1_1exceptions_1_1ContextTransducersAreNotAutomataException.html',1,'hfst::exceptions']]],
+  ['convert',['convert',['../classhfst_1_1HfstTransducer.html#afe69e9190aa0b3889a9a5f63a42799f5',1,'hfst::HfstTransducer']]],
+  ['copy',['copy',['../classhfst_1_1HfstTransducer.html#a2fa43c22b5f7af93ba8b4a56871f006a',1,'hfst::HfstTransducer']]],
+  ['cross_5fproduct',['cross_product',['../classhfst_1_1HfstTransducer.html#a3771e47365316c240b605bd32f1ca6e3',1,'hfst::HfstTransducer']]]
+];
