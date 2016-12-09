@@ -96,13 +96,13 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>A compiler holding information needed to compile XREs.  
+<p>A regular expression compiler.  
  <a href="classhfst_1_1XreCompiler.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac775ee34451fdfa742b318538164070e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhfst_1_1XreCompiler.html#ac775ee34451fdfa742b318538164070e">__init__</a></td></tr>
-<tr class="memdesc:ac775ee34451fdfa742b318538164070e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct compiler for unknown format transducers.  <a href="#ac775ee34451fdfa742b318538164070e">More...</a><br /></td></tr>
+<tr class="memdesc:ac775ee34451fdfa742b318538164070e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct compiler for OpenFst format (the default) transducers.  <a href="#ac775ee34451fdfa742b318538164070e">More...</a><br /></td></tr>
 <tr class="separator:ac775ee34451fdfa742b318538164070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac775ee34451fdfa742b318538164070e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classhfst_1_1XreCompiler.html#ac775ee34451fdfa742b318538164070e">__init__</a></td></tr>
 <tr class="memdesc:ac775ee34451fdfa742b318538164070e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create compiler for <em>impl</em> format transducers.  <a href="#ac775ee34451fdfa742b318538164070e">More...</a><br /></td></tr>
@@ -145,7 +145,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae2739f2e4d3ccd7665a120c8f4a0f4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A compiler holding information needed to compile XREs. </p>
+<div class="textblock"><p>A regular expression compiler. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a>
 <div class="memitem">
@@ -161,7 +161,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Construct compiler for unknown format transducers. </p>
+<p>Construct compiler for OpenFst format (the default) transducers. </p>
 
 </div>
 </div>
@@ -328,7 +328,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a definition macro. </p>
-<p>Compilers will replace arcs labeled <em>name</em>, with a transducer <em>transducer</em> in later phases of compilation. </p>
+<p>Compiler will replace arcs labeled <em>name</em> with a transducer <em>transducer</em> in later phases of compilation (if set_expand_definitions(True) has been called). </p>
 
 </div>
 </div>
@@ -363,7 +363,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a definition macro. </p>
-<p>Compilers will replace arcs labeled <em>name</em>, with a transducer defined by regular expression <em>xre</em> in later phases of compilation. </p>
+<p>Compiler will replace arcs labeled <em>name</em> with a transducer defined by regular expression <em>xre</em> in later phases of compilation (if set_expand_definitions(True) has been called). </p>
 
 </div>
 </div>
@@ -568,7 +568,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Dec 7 2016 15:24:30 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 9 2016 11:08:14 for HFST - Helsinki Finite-State Transducer Technology - Python API by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.7
 </small></address>

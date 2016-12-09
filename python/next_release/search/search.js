@@ -13,7 +13,7 @@ var indexSectionsWithContent =
   3: "_",
   4: "_abcdefghilmnoprstuw",
   5: "efhilrstu",
-  6: "biqstu"
+  6: "bqstu"
 };
 
 var indexSectionNames =

@@ -7,7 +7,6 @@ var searchData=
   ['input_5fproject',['input_project',['../classhfst_1_1HfstTransducer.html#a1f13c4bbb9c6031552a5af0a00281261',1,'hfst::HfstTransducer']]],
   ['insert_5ffreely',['insert_freely',['../classhfst_1_1HfstBasicTransducer.html#aec2b3a8aec371a00e1ee73f66768136a',1,'hfst.HfstBasicTransducer.insert_freely'],['../classhfst_1_1HfstBasicTransducer.html#aec2b3a8aec371a00e1ee73f66768136a',1,'hfst.HfstBasicTransducer.insert_freely'],['../classhfst_1_1HfstTransducer.html#aec2b3a8aec371a00e1ee73f66768136a',1,'hfst.HfstTransducer.insert_freely()']]],
   ['insert_5fto_5falphabet',['insert_to_alphabet',['../classhfst_1_1HfstTransducer.html#a8d4feafa7b9cfba0d22d67aa4d428101',1,'hfst::HfstTransducer']]],
-  ['installing_20the_20hfst_20api_20library_20and_20swig_2fpython_20bindings',['Installing the HFST API library and Swig/Python bindings',['../InstallHfst.html',1,'']]],
   ['intersect',['intersect',['../classhfst_1_1HfstTransducer.html#aa093d24790fac4fdd9bd09080da6c276',1,'hfst::HfstTransducer']]],
   ['invert',['invert',['../classhfst_1_1HfstTransducer.html#a989d89a8b0795ef2f51cc60cc2e92452',1,'hfst::HfstTransducer']]],
   ['is_5fautomaton',['is_automaton',['../classhfst_1_1HfstTransducer.html#a6587ee3a5e0f182b520e69ec1979bb3e',1,'hfst::HfstTransducer']]],

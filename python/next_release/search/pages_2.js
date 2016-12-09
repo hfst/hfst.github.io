@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['quick_20start_20to_20hfst',['Quick Start to HFST',['../QuickStart.html',1,'']]]
+  ['symbols_20in_20hfst',['Symbols in HFST',['../Symbols.html',1,'']]]
 ];
