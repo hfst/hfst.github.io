@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['optionalize',['optionalize',['../classhfst_1_1HfstTransducer.html#afefeee276655e28fe8fae885f3ffc27b',1,'hfst::HfstTransducer']]],
-  ['output_5fproject',['output_project',['../classhfst_1_1HfstTransducer.html#abe0fcd17f7f47b4b6cdd1975914ddca3',1,'hfst::HfstTransducer']]]
+  ['optionalize',['optionalize',['../classhfst_1_1HfstTransducer.html#aacf7d785013483e25d7353bcdf03d16d',1,'hfst::HfstTransducer']]],
+  ['output_5fproject',['output_project',['../classhfst_1_1HfstTransducer.html#ad5e8f740ae5bedfc22cfaa7f2e007566',1,'hfst::HfstTransducer']]]
 ];
